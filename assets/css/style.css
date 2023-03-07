@@ -1,0 +1,874 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+/* header start */
+
+header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    box-shadow: 0 5px 3px -2px rgb(237, 237, 237);
+    position: fixed;
+    background-color: white;
+    z-index: 2;
+    top: 0;
+    left: 0;
+
+}
+
+.logo {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #7A6960;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.ul {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    color: #4e4039;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    transition: all 1s;
+    font-size: 15px;
+}
+
+li:hover {
+    color: #F08252;
+}
+
+.ul li:nth-child(1) {
+    color: #F08252;
+}
+
+.btndiv {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+.btn1 {
+    width: 130px;
+    height: 42px;
+    color: white;
+    background-color: #eb5d1e;
+    border-color: transparent;
+    border-radius: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: all 1s;
+}
+
+
+.btn1:hover {
+    background-color: #F08252;
+}
+
+/* section1 start */
+
+.sect1 {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 100px;
+    background-color: #fef8f5;
+    justify-content: space-around;
+}
+
+.sozbtn {
+    width: 385px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sozbtn h1 {
+    font-size: 48px;
+    color: #4e4039;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.sozbtn p {
+    font-size: 24px;
+    color: #a08f86;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn2 {
+    width: 152px;
+    height: 40px;
+    color: white;
+    background-color: #eb5d1e;
+    border-color: transparent;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    transition: all 1s;
+}
+
+.btn2:hover {
+    background-color: #F08252;
+
+}
+
+.img1 {
+    width: 456px;
+    height: 315px;
+    animation-name: ya;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ya {
+    0%{
+        transform: translateY(-10px);
+    }
+
+
+     50%{
+        transform: translateY(-20px);
+    }
+
+     100%{
+        transform: translateY(-10px);
+    }
+}
+
+/* section2 start */
+
+.sect2 {
+    width: 100%;
+    height: 73vh;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.img2 {
+    width: 376px;
+    height: 246px;
+    margin-top: 50px;
+}
+
+.sozler1 {
+    width: 480px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.soz {
+    width: 100%;
+    height: 180px;
+    display: flex;
+
+}
+
+.soz1 {
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.soz2 {
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.sozler1 h1 {
+    font-size: 34px;
+    color: #4e4039;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.sozler1 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #5a6570;
+
+}
+
+.soz1 h2 {
+    font-size: 20px;
+    color: #7a6960;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.soz2 h2 {
+    font-size: 20px;
+    color: #7a6960;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.soz1 i {
+    font-size: 36px;
+    color: #ef7f4d;
+}
+
+.soz2 i {
+    font-size: 36px;
+    color: #ef7f4d;
+}
+
+/* section3 start */
+
+.sect3 {
+    width: 100%;
+    height: 85vh;
+    background-color: #fef8f5;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sozler2 {
+    width: 100%;
+    height: 72px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sozler2 h3 {
+    color: #c2b7b1;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+}
+
+.sozler2 h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #4e4039;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+.sozler2 h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 5%;
+    height: 2px;
+    background: #eb5d1e;
+    bottom: -25%;
+    left: 48%;
+}
+
+.divs {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 0px 100px;
+}
+
+.div1 {
+    width: 261px;
+    height: 275px;
+    background-color: #fff;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease;
+    border-color: transparent;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.div1:hover {
+    transform: translateY(-10px);
+    border-bottom: 3px solid #eb5d1e;
+}
+
+.div1 i {
+    font-size: 36px;
+    color: #ef7f4d;
+}
+
+.div1 h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #111;
+}
+
+.div1 p {
+    font-size: 15px;
+    line-height: 28px;
+    color: #212529;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* section4 start */
+
+.sect4 {
+    width: 100%;
+    height: 1205px;
+}
+
+.ul2 {
+    width: 20%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
+.li1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+
+.imgs {
+    width: 100%;
+    height: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.img3 {
+    width: 356px;
+    height: 267px;
+    border-radius: 10px;
+    filter: brightness(100%);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.img3:hover {
+    filter: brightness(70%);
+}
+
+/* section5 start */
+
+.sect5 {
+    width: 100%;
+    height: 634px;
+    background-color: #fef8f5;
+    display: flex;
+    flex-direction: column;
+}
+
+.sozler3 {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sual {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sual::after {
+    content: "";
+    width: 100%;
+    height: 0.5px;
+    background-color: #beb6b1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.sual p {
+    margin-left: 10px;
+}
+
+/* section6 start */
+
+.sect6 {
+    width: 100%;
+    height: 525px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sekiller {
+    width: 100%;
+    height: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.sekiller img {
+    width: 20%;
+    height: auto;
+    cursor:pointer;
+    filter: brightness(100%);
+    transition: all 0.5s ease;
+}
+
+.sekiller img:hover{
+    filter: brightness(50%);
+    transform: translateY(-10px);
+}
+
+/* section7 start */
+
+.sect7 {
+    width: 100%;
+    height: 335px;
+    background-color: #fef8f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.brands {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.brands img {
+    width: 100px;
+    height: 30px;
+    opacity: 0.5;
+    transition: all 1s;
+}
+
+.brands img:hover {
+    opacity: 100;
+}
+
+.brands img:nth-child(1) {
+    width: 100px;
+    height: 40px;
+}
+
+.brands img:nth-child(4) {
+    width: 100px;
+    height: 50px;
+}
+
+.dots {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #eb5d1e;
+    border-radius: 50%;
+    transition: all 0.5s;
+    margin-left: 10px;
+}
+
+.dot:nth-child(1){
+    background-color: #eb5d1e;
+}
+
+.dot:hover {
+    background-color: #eb5d1e;
+}
+
+/* section8 start */
+
+.sect8 {
+    width: 100%;
+    height: 800px;
+}
+
+.container1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 0px 100px;
+}
+
+.map {
+    width: 451px;
+    height: 614px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-bottom: 3px solid #eb5d1e;
+    border-top: 3px solid #eb5d1e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.map2 {
+    width: 80%;
+    height: 60p;
+    display: flex;
+}
+
+.map2 h1 {
+    color: #7a6960;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    margin-left: 20px;
+}
+
+.map2 p {
+    font-size: 14px;
+    color: #ab9d95;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.map2 i {
+    background-color: #fdf1ec;
+    font-size: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    color: #eb5d1e;
+    transition: all 0.5s;
+}
+
+.map2:hover i {
+    color: white;
+    background-color: #eb5d1e;
+}
+
+.contact {
+    width: 665px;
+    height: 615px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-bottom: 3px solid #eb5d1e;
+    border-top: 3px solid #eb5d1e;
+
+}
+
+.inputs {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.inputs h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    color: #212529;
+}
+
+.inputs input {
+    width: 278px;
+    height: 44px;
+    border: 1px solid rgb(206, 212, 218);
+    padding-left: 20px;
+}
+
+.sub {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sub h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    color: #212529;
+}
+
+.sub input {
+    width: 615px;
+    height: 44px;
+    border: 1px solid rgb(206, 212, 218);
+    padding-left: 20px;
+}
+
+.h1in {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+}
+
+.h1in h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    color: #212529;
+}
+
+#text{
+    border: 1px solid rgb(206, 212, 218);
+    
+}
+
+/* section9 start */
+
+.sect9 {
+    width: 100%;
+    height: 239px;
+    background-color: #fef8f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sozler4 h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #4e4039;
+    text-align: center;
+}
+
+
+.sozler4 h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.form-control {
+    width: 426px;
+    height: 40.5px;
+    border: 0px solid rgb(206, 212, 218);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 5px;
+}
+.inpbtn{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inpbtn button {
+    width: 113px;
+    height: 42px;
+    background-color: #eb5d1e;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    transition: all 1s;
+}
+
+.inpbtn button:hover {
+    background-color: #bb410d;
+}
+
+/* footer start */
+
+
+footer {
+    width: 100%;
+    height: 440px;
+}
+
+.top {
+    width: 100%;
+    height: 390px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.bottom {
+    width: 100%;
+    height: 50px;
+    background-color: #fef8f5;
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+}
+
+.col1 {
+    width: 285px;
+    height: 219px;
+
+}
+
+.col1 h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+
+}
+
+.col1 p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 10px;
+    font-family: "Raleway", sans-serif;
+    color: #5c5c5c;
+}
+
+.col2 h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #212529;
+    font-family: "Raleway", sans-serif;
+}
+
+.fa-angle-right {
+    font-size: 18px;
+    color: #f39e7a;
+}
+
+.ul3 li {
+    margin-top: 20px;
+}
+
+.ul3 a {
+    text-decoration: none;
+    color: #5c5c5c;
+    transition: all 1s;
+    margin-left: 10px;
+}
+
+.ul3 a:hover {
+    color: #eb5d1e;
+}
+
+.col3 h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #212529;
+    font-family: "Raleway", sans-serif;
+}
+
+.col4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.col4 h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #212529;
+    font-family: "Raleway", sans-serif;
+}
+
+.col4 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #212529;
+    margin-top: 20px;
+}
+
+.socials i {
+    width: 36px;
+    height: 36px;
+    background-color: #eb5d1e;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 1s;
+    margin-right: 15px;
+}
+
+.socials i:hover {
+    background-color: #ef7f4d;
+}
+
+.bottom p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.bottom h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 60%;
+}
+
+.bottom a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #eb5d1e;
+    text-decoration: none;
+}
+
