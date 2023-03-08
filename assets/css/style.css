@@ -95,14 +95,15 @@ li:hover {
     height: 90vh;
     display: flex;
     align-items: center;
-    padding: 0px 0px 0px 100px;
+    padding: 0px 0px 0px 125px;
     background-color: #fef8f5;
-    justify-content: space-around;
+    
 }
 
 .sozbtn {
-    width: 385px;
+    width: 490px;
     height: 320px;
+    margin-top: 140px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -141,8 +142,10 @@ li:hover {
 }
 
 .img1 {
-    width: 456px;
-    height: 315px;
+    width: 556px;
+    height: 415px;
+    margin-top: 140px;
+    margin-left: 150px;
     animation-name: ya;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -170,17 +173,17 @@ li:hover {
     height: 73vh;
     display: flex;
     margin-top: 50px;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .img2 {
-    width: 376px;
-    height: 246px;
+    width: 476px;
+    height: 346px;
     margin-top: 50px;
 }
 
 .sozler1 {
-    width: 480px;
+    width: 550px;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -205,6 +208,7 @@ li:hover {
 .soz2 {
     width: 50%;
     height: 100%;
+    margin-left: 10px;
     justify-content: space-around;
     display: flex;
     flex-direction: column;
@@ -368,11 +372,12 @@ li:hover {
 
 .imgs {
     width: 100%;
-    height: 1140px;
+    height: 900px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     margin-top: 90px;
+    align-items: center;
+    justify-content: center;
 }
 
 .img3 {
@@ -382,6 +387,7 @@ li:hover {
     filter: brightness(100%);
     transition: all 0.5s ease;
     cursor: pointer;
+    margin-left: 20px;
 }
 
 .img3:hover {
@@ -415,6 +421,15 @@ li:hover {
     font-weight: 600;
     margin: 0 auto;
     position: relative;
+    cursor: pointer;
+}
+
+.sual:hover p {
+    color: #ef7f4d;
+}
+
+.sual:hover i{
+    color: #ef7f4d;
 }
 
 .sual::after {
@@ -428,8 +443,15 @@ li:hover {
 
 }
 
+.sual i{
+    transition: all 1s;
+
+}
+
 .sual p {
     margin-left: 10px;
+    transition: all 1s;
+
 }
 
 /* section6 start */
